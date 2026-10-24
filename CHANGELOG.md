@@ -1,5 +1,11 @@
 # lg-luma
 
+## 2.8.1
+
+### Patch Changes
+
+- 32086d9: Stop the launch splash update failing when Luma is Home on webOS 5 and 6. The executable takeover method stages no Home app copy, so the update now leaves out the staged splash and only refreshes the normal tile's splash.
+
 ## 2.8.0
 
 ### Minor Changes
